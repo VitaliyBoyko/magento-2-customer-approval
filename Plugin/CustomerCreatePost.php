@@ -163,6 +163,7 @@ class CustomerCreatePost
                  */
                 $response = $this->_response->create();
                 $response->setRedirect($url)->sendResponse();
+                return $response;
             }
         }
 
